@@ -61,11 +61,11 @@ function NewProductForm() {
       {errors.price && <p className="hook__error">Please enter a number</p>}
 
       <button className="hook__button" type="submit">
-        Submit
+        SUBMIT
       </button>
 
       <button className="hook__button" type="cancel">
-        Cancel
+        CANCEL
       </button>
     </form>
   );

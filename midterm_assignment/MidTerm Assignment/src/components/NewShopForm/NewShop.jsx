@@ -33,11 +33,11 @@ function NewShopForm() {
       {errors.description && <p className="hook__error">Description is required</p>}
 
       <button className="hook__button" type="submit">
-        Submit
+        SUBMIT
       </button>
 
       <button className="hook__button" type="cancel">
-        Cancel
+        CANCEL
       </button>
     </form>
   );
